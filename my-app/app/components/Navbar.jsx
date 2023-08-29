@@ -27,9 +27,8 @@ const Navbar = () => {
       </div>
       <div className="grid grid-cols-4">
         {links.map((link, index) => (
-          <Link href={link.url}>
+          <Link href={link.url} key={index}>
             <button
-              key={index}
               className={`py-1 px-4 w-full m-auto flex justify-center items-center ${
                 activePage !== index ? "active" : " bg-gray-400 rounded-lg "
               }`}

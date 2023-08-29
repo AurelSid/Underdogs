@@ -59,8 +59,8 @@ const mobnavbar = () => {
             </div>
             <div className="grid grid-col-1 justify-center items-center m-auto text-center ">
               {links.map((link, index) => (
-                <Link href={link.url}>
-                  <button key={index} onClick={() => setActivePage(index)}>
+                <Link key={index} href={link.url}>
+                  <button onClick={() => setActivePage(index)}>
                     {link.label}
                   </button>
                 </Link>

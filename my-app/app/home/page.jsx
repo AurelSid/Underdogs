@@ -30,8 +30,8 @@ const page = () => {
           </motion.div>
           <motion.div
             className=" m-auto w-full h-full flex"
-            initial={{ opacity: 0, x: 20 }} 
-            animate={{ opacity: 1, x: 0 }} 
+            initial={{ opacity: 0, x: 20 }}
+            animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
             {" "}
