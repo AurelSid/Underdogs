@@ -10,7 +10,7 @@ const page = () => {
   const section2Ref = useRef(null);
   return (
     <div>
-      <div className=" lg:h-screen h-full flex bg-[#d4d4d4]">
+      <div className=" h-full md:h-screen  flex bg-[#d4d4d4]">
         <div className="w-full h-full justify-center items-center mt-20 lg:mt-0 md:px-40  lg:flex">
           <motion.div
             initial={{ opacity: 0, x: -20 }} // Initial state of the component
@@ -29,7 +29,7 @@ const page = () => {
             </div>
           </motion.div>
           <motion.div
-            className=" m-auto w-full h-full flex"
+            className=" m-auto w-full flex "
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
@@ -37,15 +37,6 @@ const page = () => {
             {" "}
             <img src="car.png" alt="" className="m-auto " />
           </motion.div>
-        </div>
-        <div className="w-full hidden  absolute bottom-10 left-0 right-0 md:flex justify-center items-center">
-          <button
-            onClick={() =>
-              section2Ref.current.scrollIntoView({ behavior: "smooth" })
-            }
-          >
-            <BsChevronDown className="w-20 h-20" />
-          </button>
         </div>
       </div>
       <Section2 section2Ref={section2Ref} />

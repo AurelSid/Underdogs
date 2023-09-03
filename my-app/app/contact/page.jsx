@@ -1,8 +1,11 @@
+"use client";
 import React from "react";
 import { BsTwitter } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { AiFillMail } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
+
+import { motion } from "framer-motion";
 
 const page = () => {
   const projects = [
@@ -14,12 +17,22 @@ const page = () => {
   return (
     <div>
       <div>
-        <div className=" lg:h-screen h-full flex  bg-[#d4d4d4] ">
-          <div className="grid grid-cols-2  m-auto px-40">
+        <div className=" h-screen  flex  bg-[#d4d4d4] ">
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            className="md:grid grid-cols-2  m-auto md:px-40 px-10"
+          >
+            <div className=" h-full flex justify-center items-center text-2xl m-auto md:w-8/12 w-5/12">
+              <img src="dd.png" alt="" />
+            </div>
             <div className="w-full h-full flex justify-center items-center ">
               <div>
-                <h1 className="text-xl">Let us know what' s on your mind!</h1>
-                <div className=" grid gird-row-4 gap-6 justify-start pt-10">
+                <h1 className="text-xl text-center md:text-left">
+                  Let us know what' s on your mind!
+                </h1>
+                <div className=" grid gird-row-4 gap-6 md:justify-start pt-10 m-auto justify-center">
                   <BsTwitter className="w-7 h-7" />
                   <BsInstagram className="w-7 h-7" />
                   <AiFillMail className="w-7 h-7" />
@@ -27,10 +40,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className=" h-full flex justify-center items-center text-2xl m-auto w-8/12">
-              <img src="dd.png" alt="" />
-            </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

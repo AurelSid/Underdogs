@@ -3,7 +3,7 @@ import React from "react";
 const section3 = () => {
   return (
     <div className=" lg:h-screen h-full flex   bg-black">
-      <div className="w-full h-full justify-center items-center py-20 md:py-none md:mt-20 lg:mt-0  md:px-0  lg:flex   md:mx-60 md:bg-opacity-0 md:bg-none">
+      <div className="w-full h-full justify-center items-center py-5 md:py-20 md:py-none md:mt-20 lg:mt-0  md:px-0  lg:flex   md:mx-60 md:bg-opacity-0 md:bg-none">
         <div className="w-11/12 h-11/12">
           <img src="clavier.png" alt="" />
         </div>

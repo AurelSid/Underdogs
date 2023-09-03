@@ -13,7 +13,7 @@ const section2 = () => {
       </div>
       <div
         id="section2"
-        className=" w-full h-full justify-center items-center py-20 md:py-none md:mt-20 lg:mt-0 px-10 md:px-0  lg:flex z-20  bg-black md:bg-opacity-0 md:bg-none"
+        className=" w-full h-full justify-center items-center py-20 md:py-none md:mt-20 lg:mt-0 px-10 md:px-0  lg:flex md:-20  bg-black md:bg-opacity-0 md:bg-none"
       >
         <div className="flex justify-center items-center  h-full w-full ">
           <div className=" justify-center items-center text-white bg-none md:bg-black md:bg-opacity-70 w-screen md:py-10">

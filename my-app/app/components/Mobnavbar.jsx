@@ -16,7 +16,7 @@ const mobnavbar = () => {
     { label: "Home", url: "/home" },
     { label: "About us", url: "/about_us" },
     { label: "Contact", url: "/contact" },
-    { label: "Our projects", url: "/contact" },
+    { label: "Our projects", url: "/projects" },
   ];
   const { activePage, setActivePage } = useContext(NavContext);
   const [mobileNavActive, setMobileNavActive] = useState(true);
@@ -60,7 +60,11 @@ const mobnavbar = () => {
             <div className="grid grid-col-1 justify-center items-center m-auto text-center ">
               {links.map((link, index) => (
                 <Link key={index} href={link.url}>
-                  <button onClick={() => setActivePage(index)}>
+                  <button
+                    onClick={() => (
+                      setActivePage(index), setMobileNavActive(!mobileNavActive)
+                    )}
+                  >
                     {link.label}
                   </button>
                 </Link>
