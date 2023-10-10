@@ -14,7 +14,7 @@ import { GrClose } from "react-icons/gr";
 const mobnavbar = () => {
   const links = [
     { label: "Home", url: "/home" },
-    { label: "About us", url: "/about_us" },
+    { label: "Services", url: "/about_us" },
     { label: "Contact", url: "/contact" },
     { label: "Our projects", url: "/projects" },
   ];

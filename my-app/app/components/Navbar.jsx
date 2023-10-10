@@ -11,7 +11,7 @@ import Link from "next/link";
 const Navbar = () => {
   const links = [
     { label: "Home", url: "/home" },
-    { label: "About us", url: "/about_us" },
+    { label: "Services", url: "/about_us" },
     { label: "Contact", url: "/contact" },
     { label: "Portfolio", url: "/projects" },
   ];
@@ -20,7 +20,7 @@ const Navbar = () => {
   console.log(activePage);
 
   return (
-    <div className="absolute top-0 w-full grid grid-cols-3  justify-center item-center my-5  ">
+    <div className="absolute top-0 w-full grid grid-cols-3  justify-center item-center my-5 z-50  ">
       <div className="px-5 text-xl justify-start items-start">
         {" "}
         <h1>FalconView</h1>

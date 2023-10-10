@@ -33,10 +33,17 @@ const page = () => {
                   Let us know what' s on your mind!
                 </h1>
                 <div className=" grid gird-row-4 gap-6 md:justify-start pt-10 m-auto justify-center">
-                  <BsTwitter className="w-7 h-7" />
                   <BsInstagram className="w-7 h-7" />
-                  <AiFillMail className="w-7 h-7" />
-                  <BsLinkedin className="w-7 h-7" s />
+                  <div className="flex">
+                    <AiFillMail className="w-7 h-7" />
+                    <h1 className="mx-4">
+                      aurelsid021@gmail.com / salomemichael@hotmail.fr
+                    </h1>
+                  </div>
+                  <div className="flex">
+                    <BsLinkedin className="w-7 h-7" />
+                    <h1 className="mx-4">Michael Salomé / Aurélio Sidéris </h1>
+                  </div>
                 </div>
               </div>
             </div>
