@@ -1,0 +1,250 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\roko\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@9.8.1
+2 info using node@v18.15.0
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:C:\Users\roko\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 4ms
+6 timing config:load:builtin Completed in 5ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:C:\Users\roko\Desktop\Studio\my-app\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:C:\Users\roko\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Users\roko\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 14ms
+17 timing npm:load:configload Completed in 14ms
+18 timing config:load:flatten Completed in 2ms
+19 timing npm:load:mkdirpcache Completed in 1ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install tailwindcss postcss autoprefixer
+22 verbose argv "install" "--save-dev" "tailwindcss" "postcss" "autoprefixer"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:C:\Users\roko\Desktop\Studio\my-app\npm-cache\_logs\2023-08-20T17_58_31_029Z-
+26 verbose logfile C:\Users\roko\Desktop\Studio\my-app\npm-cache\_logs\2023-08-20T17_58_31_029Z-debug-0.log
+27 timing npm:load:logFile Completed in 11ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 63ms
+31 timing arborist:ctor Completed in 0ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 75ms
+34 warn idealTree Removing dependencies.tailwindcss in favor of devDependencies.tailwindcss
+35 warn idealTree Removing dependencies.postcss in favor of devDependencies.postcss
+36 warn idealTree Removing dependencies.autoprefixer in favor of devDependencies.autoprefixer
+37 timing idealTree:userRequests Completed in 5ms
+38 silly idealTree buildDeps
+39 silly fetch manifest tailwindcss@*
+40 timing arborist:ctor Completed in 0ms
+41 http fetch GET 200 https://registry.npmjs.org/tailwindcss 4914ms (cache miss)
+42 silly fetch manifest postcss@*
+43 http fetch GET 200 https://registry.npmjs.org/postcss 526ms (cache miss)
+44 silly fetch manifest autoprefixer@*
+45 http fetch GET 200 https://registry.npmjs.org/autoprefixer 575ms (cache miss)
+46 silly placeDep ROOT autoprefixer@10.4.15 REPLACE for: my-app@0.1.0 want: *
+47 silly placeDep ROOT postcss@8.4.28 REPLACE for: my-app@0.1.0 want: *
+48 silly placeDep ROOT tailwindcss@3.3.3 REPLACE for: my-app@0.1.0 want: *
+49 timing idealTree:#root Completed in 6062ms
+50 timing idealTree:node_modules/autoprefixer Completed in 1ms
+51 timing idealTree:node_modules/postcss Completed in 0ms
+52 timing idealTree:node_modules/tailwindcss Completed in 0ms
+53 timing idealTree:buildDeps Completed in 6066ms
+54 timing idealTree:fixDepFlags Completed in 3ms
+55 timing idealTree Completed in 6155ms
+56 timing reify:loadTrees Completed in 6157ms
+57 timing reify:diffTrees Completed in 9ms
+58 silly reify moves {}
+59 timing reify:retireShallow Completed in 2ms
+60 timing reify:createSparse Completed in 4ms
+61 timing reify:loadBundles Completed in 0ms
+62 silly audit bulk request {
+62 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+62 silly audit   '@jridgewell/gen-mapping': [ '0.3.3' ],
+62 silly audit   '@jridgewell/resolve-uri': [ '3.1.1' ],
+62 silly audit   '@jridgewell/set-array': [ '1.1.2' ],
+62 silly audit   '@jridgewell/sourcemap-codec': [ '1.4.15' ],
+62 silly audit   '@jridgewell/trace-mapping': [ '0.3.19' ],
+62 silly audit   '@next/env': [ '13.4.19' ],
+62 silly audit   '@next/swc-darwin-arm64': [ '13.4.19' ],
+62 silly audit   '@next/swc-darwin-x64': [ '13.4.19' ],
+62 silly audit   '@next/swc-linux-arm64-gnu': [ '13.4.19' ],
+62 silly audit   '@next/swc-linux-arm64-musl': [ '13.4.19' ],
+62 silly audit   '@next/swc-linux-x64-gnu': [ '13.4.19' ],
+62 silly audit   '@next/swc-linux-x64-musl': [ '13.4.19' ],
+62 silly audit   '@next/swc-win32-arm64-msvc': [ '13.4.19' ],
+62 silly audit   '@next/swc-win32-ia32-msvc': [ '13.4.19' ],
+62 silly audit   '@next/swc-win32-x64-msvc': [ '13.4.19' ],
+62 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+62 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+62 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+62 silly audit   '@swc/helpers': [ '0.5.1' ],
+62 silly audit   'any-promise': [ '1.3.0' ],
+62 silly audit   anymatch: [ '3.1.3' ],
+62 silly audit   arg: [ '5.0.2' ],
+62 silly audit   'balanced-match': [ '1.0.2' ],
+62 silly audit   'binary-extensions': [ '2.2.0' ],
+62 silly audit   'brace-expansion': [ '1.1.11' ],
+62 silly audit   braces: [ '3.0.2' ],
+62 silly audit   browserslist: [ '4.21.10' ],
+62 silly audit   busboy: [ '1.6.0' ],
+62 silly audit   'camelcase-css': [ '2.0.1' ],
+62 silly audit   'caniuse-lite': [ '1.0.30001522' ],
+62 silly audit   chokidar: [ '3.5.3' ],
+62 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+62 silly audit   'client-only': [ '0.0.1' ],
+62 silly audit   commander: [ '4.1.1' ],
+62 silly audit   'concat-map': [ '0.0.1' ],
+62 silly audit   cssesc: [ '3.0.0' ],
+62 silly audit   didyoumean: [ '1.2.2' ],
+62 silly audit   dlv: [ '1.1.3' ],
+62 silly audit   'electron-to-chromium': [ '1.4.496' ],
+62 silly audit   escalade: [ '3.1.1' ],
+62 silly audit   'fast-glob': [ '3.3.1' ],
+62 silly audit   fastq: [ '1.15.0' ],
+62 silly audit   'fill-range': [ '7.0.1' ],
+62 silly audit   'fraction.js': [ '4.2.1' ],
+62 silly audit   'fs.realpath': [ '1.0.0' ],
+62 silly audit   fsevents: [ '2.3.2' ],
+62 silly audit   'function-bind': [ '1.1.1' ],
+62 silly audit   glob: [ '7.1.6' ],
+62 silly audit   'glob-to-regexp': [ '0.4.1' ],
+62 silly audit   'graceful-fs': [ '4.2.11' ],
+62 silly audit   has: [ '1.0.3' ],
+62 silly audit   inflight: [ '1.0.6' ],
+62 silly audit   inherits: [ '2.0.4' ],
+62 silly audit   'is-binary-path': [ '2.1.0' ],
+62 silly audit   'is-core-module': [ '2.13.0' ],
+62 silly audit   'is-extglob': [ '2.1.1' ],
+62 silly audit   'is-glob': [ '4.0.3' ],
+62 silly audit   'is-number': [ '7.0.0' ],
+62 silly audit   jiti: [ '1.19.3' ],
+62 silly audit   'js-tokens': [ '4.0.0' ],
+62 silly audit   lilconfig: [ '2.1.0' ],
+62 silly audit   'lines-and-columns': [ '1.2.4' ],
+62 silly audit   'loose-envify': [ '1.4.0' ],
+62 silly audit   merge2: [ '1.4.1' ],
+62 silly audit   micromatch: [ '4.0.5' ],
+62 silly audit   minimatch: [ '3.1.2' ],
+62 silly audit   mz: [ '2.7.0' ],
+62 silly audit   nanoid: [ '3.3.6' ],
+62 silly audit   next: [ '13.4.19' ],
+62 silly audit   postcss: [ '8.4.14', '8.4.28' ],
+62 silly audit   'node-releases': [ '2.0.13' ],
+62 silly audit   'normalize-path': [ '3.0.0' ],
+62 silly audit   'normalize-range': [ '0.1.2' ],
+62 silly audit   'object-assign': [ '4.1.1' ],
+62 silly audit   'object-hash': [ '3.0.0' ],
+62 silly audit   once: [ '1.4.0' ],
+62 silly audit   'path-is-absolute': [ '1.0.1' ],
+62 silly audit   'path-parse': [ '1.0.7' ],
+62 silly audit   picocolors: [ '1.0.0' ],
+62 silly audit   picomatch: [ '2.3.1' ],
+62 silly audit   pify: [ '2.3.0' ],
+62 silly audit   pirates: [ '4.0.6' ],
+62 silly audit   'postcss-import': [ '15.1.0' ],
+62 silly audit   'postcss-js': [ '4.0.1' ],
+62 silly audit   'postcss-load-config': [ '4.0.1' ],
+62 silly audit   'postcss-nested': [ '6.0.1' ],
+62 silly audit   'postcss-selector-parser': [ '6.0.13' ],
+62 silly audit   'postcss-value-parser': [ '4.2.0' ],
+62 silly audit   'queue-microtask': [ '1.2.3' ],
+62 silly audit   react: [ '18.2.0' ],
+62 silly audit   'react-dom': [ '18.2.0' ],
+62 silly audit   'read-cache': [ '1.0.0' ],
+62 silly audit   readdirp: [ '3.6.0' ],
+62 silly audit   resolve: [ '1.22.4' ],
+62 silly audit   reusify: [ '1.0.4' ],
+62 silly audit   'run-parallel': [ '1.2.0' ],
+62 silly audit   scheduler: [ '0.23.0' ],
+62 silly audit   'source-map-js': [ '1.0.2' ],
+62 silly audit   streamsearch: [ '1.1.0' ],
+62 silly audit   'styled-jsx': [ '5.1.1' ],
+62 silly audit   sucrase: [ '3.34.0' ],
+62 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+62 silly audit   thenify: [ '3.3.1' ],
+62 silly audit   'thenify-all': [ '1.6.0' ],
+62 silly audit   'to-regex-range': [ '5.0.1' ],
+62 silly audit   'ts-interface-checker': [ '0.1.13' ],
+62 silly audit   tslib: [ '2.6.2' ],
+62 silly audit   'update-browserslist-db': [ '1.0.11' ],
+62 silly audit   'util-deprecate': [ '1.0.2' ],
+62 silly audit   watchpack: [ '2.4.0' ],
+62 silly audit   wrappy: [ '1.0.2' ],
+62 silly audit   yaml: [ '2.3.1' ],
+62 silly audit   zod: [ '3.21.4' ],
+62 silly audit   autoprefixer: [ '10.4.15' ],
+62 silly audit   tailwindcss: [ '3.3.3' ]
+62 silly audit }
+63 verbose reify failed optional dependency C:\Users\roko\Desktop\Studio\my-app\node_modules\fsevents
+64 silly reify mark deleted [ 'C:\\Users\\roko\\Desktop\\Studio\\my-app\\node_modules\\fsevents' ]
+65 verbose reify failed optional dependency C:\Users\roko\Desktop\Studio\my-app\node_modules\@next\swc-win32-ia32-msvc
+66 silly reify mark deleted [
+66 silly reify   'C:\\Users\\roko\\Desktop\\Studio\\my-app\\node_modules\\@next\\swc-win32-ia32-msvc'
+66 silly reify ]
+67 verbose reify failed optional dependency C:\Users\roko\Desktop\Studio\my-app\node_modules\@next\swc-win32-arm64-msvc
+68 silly reify mark deleted [
+68 silly reify   'C:\\Users\\roko\\Desktop\\Studio\\my-app\\node_modules\\@next\\swc-win32-arm64-msvc'
+68 silly reify ]
+69 verbose reify failed optional dependency C:\Users\roko\Desktop\Studio\my-app\node_modules\@next\swc-linux-x64-musl
+70 silly reify mark deleted [
+70 silly reify   'C:\\Users\\roko\\Desktop\\Studio\\my-app\\node_modules\\@next\\swc-linux-x64-musl'
+70 silly reify ]
+71 verbose reify failed optional dependency C:\Users\roko\Desktop\Studio\my-app\node_modules\@next\swc-linux-x64-gnu
+72 silly reify mark deleted [
+72 silly reify   'C:\\Users\\roko\\Desktop\\Studio\\my-app\\node_modules\\@next\\swc-linux-x64-gnu'
+72 silly reify ]
+73 verbose reify failed optional dependency C:\Users\roko\Desktop\Studio\my-app\node_modules\@next\swc-linux-arm64-musl
+74 silly reify mark deleted [
+74 silly reify   'C:\\Users\\roko\\Desktop\\Studio\\my-app\\node_modules\\@next\\swc-linux-arm64-musl'
+74 silly reify ]
+75 verbose reify failed optional dependency C:\Users\roko\Desktop\Studio\my-app\node_modules\@next\swc-linux-arm64-gnu
+76 silly reify mark deleted [
+76 silly reify   'C:\\Users\\roko\\Desktop\\Studio\\my-app\\node_modules\\@next\\swc-linux-arm64-gnu'
+76 silly reify ]
+77 verbose reify failed optional dependency C:\Users\roko\Desktop\Studio\my-app\node_modules\@next\swc-darwin-x64
+78 silly reify mark deleted [
+78 silly reify   'C:\\Users\\roko\\Desktop\\Studio\\my-app\\node_modules\\@next\\swc-darwin-x64'
+78 silly reify ]
+79 verbose reify failed optional dependency C:\Users\roko\Desktop\Studio\my-app\node_modules\@next\swc-darwin-arm64
+80 silly reify mark deleted [
+80 silly reify   'C:\\Users\\roko\\Desktop\\Studio\\my-app\\node_modules\\@next\\swc-darwin-arm64'
+80 silly reify ]
+81 timing reifyNode:node_modules/fsevents Completed in 6ms
+82 timing reifyNode:node_modules/@next/swc-win32-ia32-msvc Completed in 6ms
+83 timing reifyNode:node_modules/@next/swc-win32-arm64-msvc Completed in 6ms
+84 timing reifyNode:node_modules/@next/swc-linux-x64-musl Completed in 6ms
+85 timing reifyNode:node_modules/@next/swc-linux-x64-gnu Completed in 6ms
+86 timing reifyNode:node_modules/@next/swc-linux-arm64-musl Completed in 6ms
+87 timing reifyNode:node_modules/@next/swc-linux-arm64-gnu Completed in 6ms
+88 timing reifyNode:node_modules/@next/swc-darwin-x64 Completed in 6ms
+89 timing reifyNode:node_modules/@next/swc-darwin-arm64 Completed in 5ms
+90 timing reify:unpack Completed in 6ms
+91 timing reify:unretire Completed in 1ms
+92 timing build:queue Completed in 1ms
+93 timing build:deps Completed in 1ms
+94 timing build Completed in 1ms
+95 timing reify:build Completed in 2ms
+96 timing reify:trash Completed in 6ms
+97 timing reify:save Completed in 68ms
+98 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 215ms
+99 timing auditReport:getReport Completed in 219ms
+100 silly audit report {}
+101 timing auditReport:init Completed in 0ms
+102 timing reify:audit Completed in 221ms
+103 timing reify Completed in 6458ms
+104 silly ADD
+105 silly ADD
+106 silly ADD
+107 silly ADD
+108 silly ADD
+109 silly ADD
+110 silly ADD
+111 silly ADD
+112 silly ADD
+113 timing command:install Completed in 6467ms
+114 verbose exit 0
+115 timing npm Completed in 6865ms
+116 info ok
